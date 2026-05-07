@@ -1,0 +1,2 @@
+2026-05-07 21:47:25,361 - ERROR - Error organizing files: [Errno 2] No such file or directory: 'test_files'
+2026-05-07 21:56:31,123 - INFO - Renamed project1.py to project_1.py
