@@ -35,34 +35,28 @@ This project automates file management tasks such as:
 
 # Folder Structure
 
+```text
 smart-file-management-system/
+│
+├── backup/
+├── logs/
+├── modules/
+│   ├── backup_manager.py
+│   ├── cleaner.py
+│   ├── duplicate_remover.py
+│   ├── helper.py
+│   ├── organizer.py
+│   └── report_generator.py
+│
+├── reports/
+├── screenshots/
+├── test_files/
+│   └── project_1.py
 │
 ├── main.py
 ├── requirements.txt
-├── README.md
-│
-├── modules/
-│   ├── helper.py
-│   ├── organizer.py
-│   ├── renamer.py
-│   ├── duplicate_remover.py
-│   ├── backup_manager.py
-│   ├── cleaner.py
-│   └── report_generator.py
-│
-├── logs/
-│   └── operations.log
-│
-├── reports/
-│   └── report.txt
-│
-├── backup/
-│
-├── test_files/
-│
-└── screenshots/
-
----
+└── README.md
+```
 
 # Modules Description
 
