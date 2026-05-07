@@ -21,3 +21,5 @@ def remove_empty_folders(path):
     except Exception as e:
         logging.error(f"Error removing empty folders: {e}")
         print("Error:", e)
+
+        
